@@ -186,7 +186,7 @@ function App() {
       <div><p>contract address:{contractAddress} </p></div>
       <div><p>token owner address:{tokenOwnerAddress} </p></div>
       <div>{isWallectConnect &&(<p>your address:{yourWalletAddress} </p>)}
-        <button onClick={checkWalletConnect}> connect wallet </button>
+      {!isWallectConnect &&<button onClick={checkWalletConnect}> connect wallet </button>}
       </div>
     </main>
   );

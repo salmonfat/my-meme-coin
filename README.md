@@ -1,10 +1,7 @@
-My Meme Coin contract app
+please visit the website: https://memecoin-app.vercel.app/
 
-please clone and run npm start.
-### `npm start`
+It's published ERC20 token on Rinkeby test network
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Token name: MyMemeCoin
+Token synbol: MMC
+contract address:0x02F239fd3b8eaa069E7f754d82f58C4252e3c014
