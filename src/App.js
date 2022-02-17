@@ -134,7 +134,7 @@ function App() {
   return (
     <main>
       {error &&<p>{error}</p>}
-      <h2>My Meme Coin DAPP</h2>
+      <h2>My Meme Coin DAPP (On Rinkeby network)</h2>
       <div>
         <p>Token name: {tokenName}</p>
         <p>Token synbol: {tokenSymbol}</p>
@@ -158,7 +158,7 @@ function App() {
               onClick={transferToken}>Transfer</button>
         </form>
       </div>
-    {isTokenOwner &&(<section>
+    <section>
       <div>
         <form>
         <input
@@ -182,7 +182,7 @@ function App() {
           <button
               onClick={mintToken}>Mint</button><span>(can only be done by the contract owner) </span>
         </form>
-      </div> </section>)}
+      </div> </section>
       <div><p>contract address:{contractAddress} </p></div>
       <div><p>token owner address:{tokenOwnerAddress} </p></div>
       <div>{isWallectConnect &&(<p>your address:{yourWalletAddress} </p>)}
